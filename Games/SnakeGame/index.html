@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeGame - Nishil</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="body">
+        <div id="scoreBox">Score: 0</div>
+        <div id="hiscoreBox">HiScore: 0</div>
+        <div id="board"></div>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modal-header">
+          <div class="title">Game Over</div>
+          <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div id = GameoverHiScore>
+                High Score: 0
+            </div>
+            <div id = GameoverScore>
+                Score: 0
+            </div>
+        </div>
+    </div>
+    <div id="overlay"></div>
+</body>
+<script src="js/index.js"></script>
+</html>
